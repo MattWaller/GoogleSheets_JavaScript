@@ -27,7 +27,7 @@ function saveAsCSVUSD() {
     
     var filename = "USD_Transactions_" + today + ".csv"; // CSV file name
     var Cfilename = "USD_Transactions.csv"; // Constant CSV file name  
-    var folder = ""; // Folder ID -- MAKE SURE NOT TO USE SAME PATH AS OTHER CURRENCY!   
+    var folder = ""; // Folder ID
     
     
     var csv = "";
@@ -53,7 +53,7 @@ function saveAsCSVUSD() {
   if(cell == "NO"){ 
     
     var Bfilename = "USD_Transactions.csv"; // Constant CSV file name
-    var folder = ""; // Folder ID -- MAKE SURE NOT TO USE SAME PATH AS OTHER CURRENCY!   
+    var folder = ""; // Folder ID  
     var csv = "";
     var Bv = SpreadsheetApp
     .getActiveSpreadsheet()
