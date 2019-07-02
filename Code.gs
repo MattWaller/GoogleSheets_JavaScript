@@ -26,7 +26,7 @@ function BaseQBOWhileLoop(){
           "headers": {
             "Content-Type": "application/x-www-form-urlencoded",
             "Accept": "application/json",
-            "Authorization": "Basic // ADD YOUR AUTHORIZATION CODE HERE"
+            "Authorization": "Basic" // ADD YOUR AUTHORIZATION CODE HERE
           },
           "payload": {
             "grant_type" : "refresh_token",
